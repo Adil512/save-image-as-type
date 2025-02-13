@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - Website: https://saveimageastype.com/
-- Email: online@domain.com
+- Email: online@saveimageastype.com
 - Twitter: [@YourHandle](https://twitter.com/saveimageastype)
 
 ## Acknowledgments
