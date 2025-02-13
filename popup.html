@@ -1,1 +1,27 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Image As Type</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Save Image As Type</h1>
+        <div class="format-options">
+            <button id="pngBtn" class="format-btn">Save as PNG</button>
+            <button id="jpgBtn" class="format-btn">Save as JPG</button>
+            <button id="webpBtn" class="format-btn">Save as WebP</button>
+        </div>
+        <div class="quality-control">
+            <label for="quality">Image Quality:</label>
+            <input type="range" id="quality" min="1" max="100" value="85">
+            <span id="qualityValue">85%</span>
+        </div>
+        <div class="status" id="status"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
