@@ -15,5 +15,3 @@ This extension does not collect, store, or transmit any user data. It operates e
 
 ## Contact
 If you have any questions about this privacy policy, please create an issue on our GitHub repository.
-
-Last Updated: [Current Date]
