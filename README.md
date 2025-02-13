@@ -2,7 +2,7 @@
 
 A Chrome extension that allows users to save images in different formats (PNG, JPG, WebP) directly from the web with a simple right-click.
 
-![Extension Demo](assets/screenshots/demo.png)
+![Extension Demo](https://github.com/Adil512/save-image-as-type/blob/main/asasa.png)
 
 ## Features
 
