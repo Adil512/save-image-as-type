@@ -1,0 +1,53 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*' # Triggers on version tags
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build extension
+        run: |
+          zip -r extension.zip src/
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          echo "::set-output name=changelog::$(git log $(git describe --tags --abbrev=0)..HEAD --pretty=format:'- %s')"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: extension.zip
+          body: |
+            # Release ${{ github.ref_name }}
+            
+            ## What's Changed
+            ${{ steps.changelog.outputs.changelog }}
+            
+            ## Installation
+            1. Download the extension.zip file
+            2. Unzip the file
+            3. Load it in Chrome using Developer mode
+            
+            For detailed instructions, see our [README.md](README.md)
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
