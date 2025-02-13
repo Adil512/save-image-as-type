@@ -15,7 +15,7 @@ A Chrome extension that allows users to save images in different formats (PNG, J
 
 ## Installation
 
-1. Visit the [Chrome Web Store](your-extension-link)
+1. Visit the [Chrome Web Store](https://chromewebstore.google.com/detail/save-image-as-type/aninmieokgdbdcgoiglchhhhbpnpolja?authuser=0&hl=en)
 2. Click "Add to Chrome"
 3. Confirm the installation
 
