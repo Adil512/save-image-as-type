@@ -1,1 +1,54 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    text-align: center;
+}
+
+.format-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.format-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.format-btn:hover {
+    background-color: #1976D2;
+}
+
+.quality-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#quality {
+    flex-grow: 1;
+}
+
+.status {
+    text-align: center;
+    min-height: 20px;
+    color: #666;
+}
