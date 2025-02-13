@@ -1,2 +1,62 @@
 # Save Image As Type
-Save Image As Type Into JPG, PNG, WebP Directly In Browser With our Save Image As Type experience the most advanced browser extension for instant image format conversion. Convert &amp; Download images in your preferred format (JPG, PNG,WebP) with a single click, supporting over 15+ image formats.
+
+A Chrome extension that allows users to save images in different formats (PNG, JPG, WebP) directly from the web with a simple right-click.
+
+![Extension Demo](assets/screenshots/demo.png)
+
+## Features
+
+- Save images in PNG format
+- Save images in JPG format with customizable quality
+- Save images in WebP format
+- Right-click context menu integration
+- Preserves original image quality
+- Batch download support
+
+## Installation
+
+1. Visit the [Chrome Web Store](your-extension-link)
+2. Click "Add to Chrome"
+3. Confirm the installation
+
+## Usage
+
+1. Right-click on any image
+2. Select "Save Image As Type"
+3. Choose your desired format
+4. The image will be saved in the selected format
+
+## Development
+
+### Prerequisites
+
+- Google Chrome
+- Basic knowledge of JavaScript
+- Understanding of Chrome Extension APIs
+
+### Local Setup
+
+1. Clone this repository
+2. Open Chrome and navigate to `chrome://extensions/`
+3. Enable "Developer mode"
+4. Click "Load unpacked"
+5. Select the `src` directory from this repository
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+- Website: https://saveimageastype.com/
+- Email: online@domain.com
+- Twitter: [@YourHandle](https://twitter.com/saveimageastype)
+
+## Acknowledgments
+
+- List any libraries or resources you used
+- Credits to contributors
